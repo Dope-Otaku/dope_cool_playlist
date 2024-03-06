@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <h2>Click to generate Random Password: </h2><br>
+            <h3>Please choose any one: </h3><br>
+            <input type="checkbox" id="lowerCase" name="box">
+            <label for="lowerCase">lowerCase</label><br>
+            <input type="checkbox" id="upperCase" name="box">
+            <label for="upperCase">upperCase</label><br>
+            <input type="checkbox" id="digits" name="box">
+            <label for="digits">Digits</label><br>
+            <input type="checkbox" id="specialChars" name="box">
+            <label for="specialChars">specialChars</label><br>
+            <button id="generate">Generate</button>
+            <div class="text"><br>
+                <h3>Password:</h3>
+                <p id="password"></p>
+            </div>
+        </div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+</html>

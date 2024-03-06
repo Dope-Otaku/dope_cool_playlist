@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #4a7ef0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.wrapper{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+button{
+    background-color: white;
+    color: black;
+    padding: 2px;
+    border-radius: 2px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blueviolet;
+    height: 10vh;
+    width: 10vw;
+}
+
+#password{
+    color: red;
+    font-weight: 500;
+}

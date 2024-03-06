@@ -1,0 +1,21 @@
+h2{
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#details{
+    border: 1px solid;
+}   
+
+h3{
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+#he{
+    color: red;
+}
