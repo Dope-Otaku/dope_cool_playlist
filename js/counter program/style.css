@@ -1,0 +1,37 @@
+.container{
+    border: 1px solid;
+    height: 50vh;
+    width: 50vw;
+}
+.wrapper{
+    padding: 10px;
+}
+
+.wrapper .number{
+    margin-top: 20vh;
+    display: flex;
+    font-size: 5rem;
+    justify-content: center;
+}
+
+.controls{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.controls button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 2px;
+    text-decoration: solid;
+    cursor: pointer;
+}
+
+.controls button:hover{
+    background-color: #6bf5ff;
+    
+}
+.controls button:active{
+    background-color: red;
+}
