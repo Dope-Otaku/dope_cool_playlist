@@ -34,3 +34,21 @@ const newDates = dates.map((date) => {
 });
 
 console.log(newDates);
+
+//filter functions - accepts a callback and applies that function to each element of the array, an returns a new array with the elements that return true in the callback
+
+const num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const evenNumber = num.filter((numE) => {
+  return numE % 2 === 0;
+});
+console.log(evenNumber);
+
+//reduce function - accepts a callback and applies that function to each element of the array, an return a  single variable
+// accumulator and current value are the two parameters of the callback function
+
+const tips = [1, 2, 3, 4, 5];
+const total = tips.reduce((acc, tip) => {
+  return acc + tip;
+});
+
+console.log(`$${total.toFixed(2)}`);
